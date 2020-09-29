@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Nocturno</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div class="uk-flex uk-flex-center uk-flex-middle uk-flex-column" uk-height-viewport>
+        <div class="uk-padding-small">
+            <button class="switch" id="switch">
+                <span uk-icon="icon: lock;"></span>
+                <span uk-icon="icon: unlock;"></span>
+            </button>
+        </div>
+        <div class="uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body uk-text-center">
+                    <h3 class="uk-card-title">Título</h3>
+                    <p>Ver más contenido dentro del sitio web.<br> https://webfils.com.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+    <script src="modo.js"></script>
+</body>
+
+</html>
